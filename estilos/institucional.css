@@ -104,3 +104,13 @@ body {
 .btn:hover {
     background-color: #1f456b;
 }
+@media (max-width: 768px) {
+    .section .btn {
+        display: block;             
+        width: 100%;                 
+        font-size: 1.1rem;           
+        padding: 14px;              
+        margin: 12px 0;             
+        text-align: center;       
+    }
+}
